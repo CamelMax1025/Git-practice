@@ -7,7 +7,22 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>我是標題</h1>
-    <p>我是內文</p>
+    <h2>新增資料</h2>
+    <input type="text" placeholder="充電站名稱" class="stationName" />
+    <!-- <input type="text" placeholder="免費、付費" class="stationCharge" /> -->
+    <select class="stationCharge">
+      <option value="免費">免費</option>
+      <option value="投幣式">投幣式</option>
+    </select>
+    <input type="button" value="儲存" class="btn" />
+    <div class="filter">
+      <input type="button" value="免費" />
+      <input type="button" value="投幣式" />
+      <input type="button" value="全部" />
+    </div>
+    <ul class="list">
+      <li>xxx充電站(原文字 未被改寫)</li>
+    </ul>
+    <script src="/all.js"></script>
   </body>
 </html>
